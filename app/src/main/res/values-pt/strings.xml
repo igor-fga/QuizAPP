@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name">Nome</string>
+    <string name="Questions">Perguntas</string>
+    <string name="Quest01">Qual o verdadeiro nome do Darth Vader?</string>
+    <string name="Quest02">Qual o nome do novo filme do Star Wars?</string>
+    <string name="Quest03">Qual o nome da nave do Han Solo?</string>
+    <string name="Quest04">Qual o planeta natal do Luke Skywalker?</string>
+    <string name="Quest05">Quem é o pequeno homem verde?</string>
+    <string name="Ans02A">O retorno do Jedi</string>
+    <string name="Ans02B">Ataque dos Clones</string>
+    <string name="Ans03A">Estrela da Morte</string>
+</resources>

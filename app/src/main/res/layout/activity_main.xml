@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizapp.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/name_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+            android:inputType="textCapWords"
+            android:paddingBottom="20dp"
+            android:paddingLeft="16dp" />
+
+        <TextView
+            style="@style/TextViewQuestions"
+            android:text="@string/Quest01" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp">
+
+            <RadioButton
+                style="@style/RadioButtons"
+                android:text="@string/Ans01A" />
+
+            <RadioButton
+                style="@style/RadioButtons"
+                android:text="@string/Ans01B" />
+
+            <RadioButton
+                style="@style/RadioButtons"
+                android:text="@string/Ans01C" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextViewQuestions"
+            android:text="@string/Quest02" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp">
+
+            <RadioButton
+                style="@style/RadioButtons"
+                android:text="@string/Ans02A" />
+
+            <RadioButton
+                style="@style/RadioButtons"
+                android:text="@string/Ans02B" />
+
+            <RadioButton
+                style="@style/RadioButtons"
+                android:text="@string/Ans02C" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextViewQuestions"
+            android:text="@string/Quest03" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp">
+
+            <RadioButton
+                style="@style/RadioButtons"
+                android:text="@string/Ans03A" />
+
+            <RadioButton
+                style="@style/RadioButtons"
+                android:text="@string/Ans03B" />
+
+            <RadioButton
+                style="@style/RadioButtons"
+                android:text="@string/Ans03C" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextViewQuestions"
+            android:text="@string/Quest04" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp">
+
+            <RadioButton
+                style="@style/RadioButtons"
+                android:text="@string/Ans04A" />
+
+            <RadioButton
+                style="@style/RadioButtons"
+                android:text="@string/Ans04B" />
+
+            <RadioButton
+                style="@style/RadioButtons"
+                android:text="@string/Ans04C" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextViewQuestions"
+            android:text="@string/Quest05" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp">
+
+            <RadioButton
+                style="@style/RadioButtons"
+                android:text="@string/Ans05A" />
+
+            <RadioButton
+                style="@style/RadioButtons"
+                android:text="@string/Ans05B" />
+
+            <RadioButton
+                style="@style/RadioButtons"
+                android:text="@string/Ans05C" />
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Submit" />
+
+    </LinearLayout>
+
+</ScrollView>

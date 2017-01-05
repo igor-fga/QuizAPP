@@ -11,23 +11,20 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/name_field"
-            android:layout_width="match_parent"
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="@string/name"
-            android:inputType="textCapWords"
-            android:paddingBottom="20dp"
-            android:paddingLeft="16dp" />
+            android:padding="16dp"
+            android:text="@string/AnsTo"
+            android:textSize="15sp" />
 
         <TextView
             style="@style/TextViewQuestions"
             android:text="@string/Quest01" />
 
         <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp">
+            android:id="@+id/rg01"
+            style="@style/Radiogroups">
 
             <RadioButton
                 style="@style/RadioButtons"
@@ -47,9 +44,8 @@
             android:text="@string/Quest02" />
 
         <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp">
+            android:id="@+id/rg02"
+            style="@style/Radiogroups">
 
             <RadioButton
                 style="@style/RadioButtons"
@@ -69,9 +65,8 @@
             android:text="@string/Quest03" />
 
         <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp">
+            android:id="@+id/rg03"
+            style="@style/Radiogroups">
 
             <RadioButton
                 style="@style/RadioButtons"
@@ -91,9 +86,8 @@
             android:text="@string/Quest04" />
 
         <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp">
+            android:id="@+id/rg04"
+            style="@style/Radiogroups">
 
             <RadioButton
                 style="@style/RadioButtons"
@@ -113,9 +107,8 @@
             android:text="@string/Quest05" />
 
         <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp">
+            android:id="@+id/rg05"
+            style="@style/Radiogroups">
 
             <RadioButton
                 style="@style/RadioButtons"
@@ -131,12 +124,9 @@
         </RadioGroup>
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="16dp"
-            android:layout_marginTop="16dp"
-            android:text="Submit" />
+            android:id="@+id/btnSubmit"
+            style="@style/Buttons"
+            android:text="@string/BtnSubmit" />
 
     </LinearLayout>
 

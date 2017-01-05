@@ -22,4 +22,11 @@
     <string name="Ans05B" translatable="false">Piccolo</string>
     <string name="Ans05C" translatable="false">ET</string>
     <string name="Questions">Questions</string>
+    <string name="AnswerAll">Answer all questions!</string>
+    <string name="Res">Result</string>
+    <string name="Ans">answers</string>
+    <string name="Got">You got</string>
+    <string name="BtnSubmit">Submit</string>
+    <string name="AnsTo">Questions 1 to 5</string>
+
 </resources>

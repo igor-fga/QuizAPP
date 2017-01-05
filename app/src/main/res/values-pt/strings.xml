@@ -10,4 +10,10 @@
     <string name="Ans02A">O retorno do Jedi</string>
     <string name="Ans02B">Ataque dos Clones</string>
     <string name="Ans03A">Estrela da Morte</string>
+    <string name="Res">Resultado</string>
+    <string name="AnswerAll">Responda todas as perguntas!!</string>
+    <string name="BtnSubmit">Enviar</string>
+    <string name="Got">Você acertou</string>
+    <string name="AnsTo">Perguntas de 1 a 5</string>
+    <string name="Ans">perguntas</string>
 </resources>

@@ -5,10 +5,10 @@
     <string name="Ans01A" translatable="false">Anakin Skywalker</string>
     <string name="Ans01B" translatable="false">Obi-Wan Kenobi</string>
     <string name="Ans01C" translatable="false">Anakin Skylord</string>
-    <string name="Quest02">What is the name of the new Star Wars movie?</string>
+    <string name="Quest02">Select only Star Wars movies</string>
     <string name="Ans02A">Return of the Jedi</string>
     <string name="Ans02B">Attack of the Clones</string>
-    <string name="Ans02C" translatable="false">Rougue One</string>
+    <string name="Ans02C">Beyond the darkness</string>
     <string name="Quest03">What is the name of the Han Solo\'s ship?</string>
     <string name="Ans03A">Death Star</string>
     <string name="Ans03B" translatable="false">Millenium Falcon</string>
@@ -25,7 +25,7 @@
     <string name="AnswerAll">Answer all questions!</string>
     <string name="Res">Result</string>
     <string name="Ans">answers</string>
-    <string name="Got">You got</string>
+    <string name="Got">you got</string>
     <string name="BtnSubmit">Submit</string>
     <string name="AnsTo">Questions 1 to 5</string>
 

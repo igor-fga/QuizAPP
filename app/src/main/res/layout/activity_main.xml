@@ -11,6 +11,15 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <EditText
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+            android:inputType="textCapWords"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -43,22 +52,21 @@
             style="@style/TextViewQuestions"
             android:text="@string/Quest02" />
 
-        <RadioGroup
-            android:id="@+id/rg02"
-            style="@style/Radiogroups">
+        <CheckBox
+            android:id="@+id/chkReturn"
+            style="@style/Checkboxes"
+            android:text="@string/Ans02A" />
 
-            <RadioButton
-                style="@style/RadioButtons"
-                android:text="@string/Ans02A" />
+        <CheckBox
+            android:id="@+id/chkAttack"
+            style="@style/Checkboxes"
+            android:text="@string/Ans02B" />
 
-            <RadioButton
-                style="@style/RadioButtons"
-                android:text="@string/Ans02B" />
+        <CheckBox
+            android:id="@+id/chkBeyond"
+            style="@style/Checkboxes"
+            android:text="@string/Ans02C" />
 
-            <RadioButton
-                style="@style/RadioButtons"
-                android:text="@string/Ans02C" />
-        </RadioGroup>
 
         <TextView
             style="@style/TextViewQuestions"

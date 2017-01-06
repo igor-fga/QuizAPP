@@ -3,7 +3,7 @@
     <string name="name">Nome</string>
     <string name="Questions">Perguntas</string>
     <string name="Quest01">Qual o verdadeiro nome do Darth Vader?</string>
-    <string name="Quest02">Qual o nome do novo filme do Star Wars?</string>
+    <string name="Quest02">Selecione somente filmes do Star Wars</string>
     <string name="Quest03">Qual o nome da nave do Han Solo?</string>
     <string name="Quest04">Qual o planeta natal do Luke Skywalker?</string>
     <string name="Quest05">Quem é o pequeno homem verde?</string>
@@ -13,7 +13,8 @@
     <string name="Res">Resultado</string>
     <string name="AnswerAll">Responda todas as perguntas!!</string>
     <string name="BtnSubmit">Enviar</string>
-    <string name="Got">Você acertou</string>
+    <string name="Got">você acertou</string>
     <string name="AnsTo">Perguntas de 1 a 5</string>
     <string name="Ans">perguntas</string>
+    <string name="Ans02C">Além da escuridão</string>
 </resources>
